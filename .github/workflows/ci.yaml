@@ -5,7 +5,7 @@ jobs:
       runs-on: [ubuntu-latest]
    steps:
       - uses: actions/checkout@v2
-      - name: training
-      run: 
+      - name: main
+      run:
          pip install -r requirements.txt
          python main.py

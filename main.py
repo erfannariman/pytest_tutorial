@@ -5,5 +5,3 @@ def func(x):
 def select_data(data, column, value):
     mask = data[column] < value
     return data[mask]
-
-

@@ -22,7 +22,7 @@ def test_drop_column():
 
     })
 
-    expected = pd.DatFrame({'A': [1, 2, 3]})
+    expected = pd.DataFrame({'A': [1, 2, 3]})
     result = drop_column(df, 'B')
 
     tm.assert_frame_equal(expected, result)
